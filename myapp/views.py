@@ -11,5 +11,10 @@ def HomeView(request):
     return redirect('/')
   else:
     return render(request,'index.html')
+  
+
+def AboutView(request):
+  
+  return render(request,'index.html')
 
 
