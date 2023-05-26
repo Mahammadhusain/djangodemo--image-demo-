@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+     Index | Page 
+{% endblock title %}
+   
+{% block body %}
+  <div>
+    <h3>Dashboard - {{request.user}}</h3> <br> <br>
+
+    <a href="{% url 'logout' %}">Logout</a>
+  </div> <br> <br>
+  
+{% endblock body %}
+   
